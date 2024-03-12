@@ -7,7 +7,7 @@ const app = express();
 const port = '3000';
 
 const MODEL_NAME = "gemini-1.0-pro";
-const API_KEY = "AIzaSyCIdsPuuWomM1KC_ElSS5QNBLFMulDBSFI";
+const API_KEY = "";
 
 app.use(bodyParser.json());
 app.use(cors());
